@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #b2fefa, #0ed2f7);
+  color: #000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-bottom: 10px;
+}
+
+.btn-group {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.btn-info {
+  background-color: #5f81d4;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+}
+
+.btn-info:hover {
+  background-color: #4267b2;
+  margin-right: 10px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.card.upvoted {
+  background: linear-gradient(135deg, #9eff9d, #00cf54);
+}
+
+.card.downvoted {
+  background: linear-gradient(135deg, #ff9a9a, #ff4141);
+}
