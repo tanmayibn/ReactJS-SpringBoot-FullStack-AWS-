@@ -7,8 +7,6 @@ The Interview Experience Portal is a web application aimed at helping people lea
 - Post and view interview experiences
 - Upvote or downvote experiences to indicate their helpfulness
   
-## View
-![View of the Page]
 
 ## Technologies Used
 
