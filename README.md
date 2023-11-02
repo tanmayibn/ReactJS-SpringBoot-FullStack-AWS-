@@ -64,7 +64,7 @@ To set up the project for local development, follow these steps:
 5. Set up the frontend by navigating to the frontend directory in your terminal.
 6. Install the frontend dependencies using `npm install` or `yarn install`.
 7. Start the frontend development server using `npm start` or `yarn start`.
-8. Access the development server at `http://localhost:3000` in your web browser.
+
 
 
 
