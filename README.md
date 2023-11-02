@@ -8,7 +8,7 @@ The Interview Experience Portal is a web application aimed at helping people lea
 - Upvote or downvote experiences to indicate their helpfulness
   
 ## View
-![View of the Page](https://github.com/amisinha/SpringBoot-ReactJS-AWS-FullStack/blob/main/view.JPG)
+![View of the Page]
 
 ## Technologies Used
 
